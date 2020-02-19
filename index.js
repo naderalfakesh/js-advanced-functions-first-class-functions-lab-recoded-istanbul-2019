@@ -14,3 +14,7 @@ function createFareMultiplier(bir){
 const fareQuintupler = createFareMultiplier(4)
 const fareDoubler = createFareMultiplier(2)
 const fareTripler = createFareMultiplier(3)
+
+function selectDifferentDrivers(arrayOfDrivers, f){
+  return f(arrayOfDrivers)
+}
